@@ -1,0 +1,279 @@
+ @media (max-width: 990px) {
+
+    .horzontal-line{
+        display: none;
+    }
+
+    .bam-buser{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .main-toggle{
+        display: block;
+
+    }
+
+    .video-slide{
+        display: none;
+    }
+
+
+    .main-image{
+        margin-top: 30px;
+    }
+    
+
+    .main{
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-h1, .main-h2,.main-p{
+        text-align: center;
+    }
+
+    .main-p{
+        padding: 0;
+    }
+
+    .girl-data{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+
+    .girl{
+        margin-top: 10px;
+        justify-content: center; 
+        align-items: center ;
+    }
+
+    .svg-video-again{
+        width: 160px;
+    }
+
+    .btn-action{
+        left: 43.5%;
+    }
+
+    .btn-action img{
+        width: 50%;
+    }
+
+    .see{
+        font-size: 12px;
+    }
+
+    .ted-london{
+        margin-top: 50%;
+    }
+
+    .ted{
+        font-size: 13px;
+    }
+    
+    .london{
+        font-size: 8px;
+    }
+
+    .main-data{
+        /* z-index: 999; */
+        justify-content: center;
+        align-self: center;   
+        height: auto;
+        width: auto;
+    }
+
+    .data{
+       align-items: center;
+    }
+
+    .best-p{
+        padding: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    .list-button-1{
+        align-self: center;
+        
+    }
+
+    .list-btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-1::before{
+        content: " ";
+    }
+
+    .list-button{
+        align-self: center;
+    }
+
+
+    .main-time{
+        margin: 0 0 50px 0;
+        overflow: hidden;
+    }
+
+
+    .card-head{
+        display: flex; 
+        justify-content: space-around;
+        padding-left: 10px;
+    }
+
+    .card-main-data{ 
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+
+
+    .two-girl-data{
+        margin: 100px 0 0 0;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    .girl-media{
+        display: grid;
+        grid-row: 1/2;
+        justify-content: center;
+    }
+
+    .card-boy-girl{
+        padding: 50px 50px 50px 50px;
+    }
+
+
+    .sam-pench-mate{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sam-pench-mate img{
+        width: 650px;
+        height: 550px;
+    }
+
+
+    .samsung-p{
+        width: 650px;
+        padding-bottom: 50px;
+    }
+
+    .sam-btn{
+        display: none;
+    }
+
+
+    .item-card{
+        margin: 80px 30px 80px 30px;
+        flex-direction: column;
+        gap: 60px;
+    } 
+
+    .main-item-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .main-item-card p{
+        width: auto;
+        text-align: center;
+    }
+
+    .Inovation-img-data{
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+
+    .Inovation-data img{
+        width: 85vw;
+    }
+
+
+    .main-mobile-girl{
+        background-color: #fff;
+    }
+
+
+    .main-again-mobile{
+        margin-top: 240%;
+    }
+
+    .mobile-girl{
+        margin: 100px 30px 0 30px;
+        display: grid;
+        /* box-shadow:0 3px 10px rgb(0 0 0 / 0.2) ; */
+    }
+
+
+    .mobile-data{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 35px;
+        margin-left: 0;
+        box-shadow:0 3px 5px rgb(0 0 0 / 0.2) ;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+    }
+
+    .get-p,.powerful{
+        text-align: center;
+    }
+
+    .mobile-two{
+        position: relative;
+        grid-row: 1/2;
+    }
+
+    .mobile-1{
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        width: 95vw;
+        height: 90vh;
+    }
+
+    .mobile-2{
+        width: 50vw;
+        height: 70vh;
+    }
+
+    .marq{
+        display: none;
+    }
+        
+    .main-footer{
+        margin-top: 350px;
+    }
+
+
+    .footer-last{
+        margin-left: 30px;
+    }
+    
+ }
