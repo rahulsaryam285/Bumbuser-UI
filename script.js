@@ -28,6 +28,7 @@ fader.forEach((faders) => {
 // Background Color
 function changBg(){
   let a  = window.scrollY;
+
   if (a >= 710 && a <= 1890){
     document.body.classList.add("bg-color");
 
@@ -159,6 +160,7 @@ function move (direction){
   let slideLet = setInterval(() => {
     if (direction == "left"){
       let c =  document.getElementById("card-girl").scrollLeft -=40;
+      
       if(c == 9){
         document.querySelector(".Previous-img").style.opacity = 0.3;
       }
@@ -255,7 +257,10 @@ $(document).ready(function(){
 
 
 const icon = document.querySelector(".icon");
+var btn = document.querySelector(".block-header");
 
 icon.addEventListener("click", ()=>{
   icon.classList.toggle("iconClick");
+
 })
+

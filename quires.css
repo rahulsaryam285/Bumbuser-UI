@@ -1,5 +1,6 @@
  @media (max-width: 990px) {
 
+
     .horzontal-line{
         display: none;
     }
@@ -18,7 +19,21 @@
 
     .main-toggle{
         display: block;
+    }
 
+  
+
+    .girl-data-section{
+        background-color: rgb(26, 24, 24);
+    }
+
+    .foter-p{
+        color: #fff;
+    }
+
+
+    .data-h3-3-again{
+        color: #fff;
     }
 
     .video-slide{
@@ -27,13 +42,17 @@
 
 
     .main-image{
-        margin-top: 30px;
+        margin: 30px 50px 0 50px;
     }
     
 
     .main{
-        width: 100%;
+        width: 90vw;
         align-items: center;
+    }
+
+    .main-h1, .main-h2{
+        font-size: 60px;
     }
 
     .main-h1, .main-h2,.main-p{
@@ -42,6 +61,8 @@
 
     .main-p{
         padding: 0;
+        text-align: center;
+        font-size: 20px;
     }
 
     .girl-data{
@@ -126,20 +147,19 @@
 
 
     .main-time{
-        margin: 0 0 50px 0;
+        margin: 0;
+        padding: 0 0 70px 0;
         overflow: hidden;
     }
 
 
-    .card-head{
-        display: flex; 
-        justify-content: space-around;
-        padding-left: 10px;
+    .card-head{ 
+        justify-content: space-between;
+        padding: 50px;
     }
 
     .card-main-data{ 
-        padding-left: 55px;
-        padding-right: 55px;
+        padding: 0 55px 60px 55px;
     }
 
 
@@ -164,16 +184,19 @@
     .sam-pench-mate{
         display: flex;
         flex-direction: column;
+        /* border-radius: 0px; */
     }
 
     .sam-pench-mate img{
-        width: 650px;
+        width: 600px;
         height: 550px;
+        border-top-right-radius: 13px;
+        /* border-bottom-left-radius: 1px; */
     }
 
 
     .samsung-p{
-        width: 650px;
+        width: 600px;
         padding-bottom: 50px;
     }
 
@@ -200,6 +223,16 @@
         text-align: center;
     }
 
+    .card-head{
+        gap: 30px;
+        /* justify-content: space-between; */
+    }
+
+    .card-main-img{
+        margin-left: 20px;
+        gap: 40px;
+    }
+
     .Inovation-img-data{
         margin: 0 auto;
         flex-direction: column;
@@ -223,9 +256,10 @@
     }
 
     .mobile-girl{
-        margin: 100px 30px 0 30px;
+        margin: 100px 0 0 0;
         display: grid;
-        /* box-shadow:0 3px 10px rgb(0 0 0 / 0.2) ; */
+        justify-content: center;
+
     }
 
 
@@ -246,7 +280,7 @@
     }
 
     .mobile-two{
-        position: relative;
+        /* position: relative; */
         grid-row: 1/2;
     }
 
@@ -254,7 +288,7 @@
         border-bottom-right-radius: 0;
         border-top-right-radius: 16px;
         border-top-left-radius: 16px;
-        width: 95vw;
+        width: 92vw;
         height: 90vh;
     }
 
@@ -277,3 +311,240 @@
     }
     
  }
+
+
+
+@media (max-width : 770px) {
+
+    .main-h1, .main-h2{
+        font-size: 50px;
+    }
+
+    .main-p{
+        font-size: 17px;
+    }
+    
+
+    .main-time{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+
+
+    .time-p{
+        border-right: none;
+    }
+
+    .time-p-again-1{
+      justify-content: center;
+      align-items: center;
+    }
+
+    .time-2, .time-1-2{
+        font-size: 25px;
+    }
+    
+    .time-2{
+        width: 250px;
+    }
+    
+    .time-1-2{
+        width: 55vw;
+    }
+
+
+    .card-head{
+        gap: 0;
+        /* justify-content: space-between; */
+    }
+
+    .main-list-footer{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .list-footer{
+        margin-top: 40px;
+    }
+
+    .follow{
+        padding-left: 0;
+    }
+    
+
+    .footer-ul-1{
+        align-items: flex-start;
+        
+    }
+
+    .footer-last{
+        margin-right: 30px;
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    /* .main{
+        width: 400px !important;
+    } */
+
+    .main-h1, .main-h2{   
+        font-size: 40px;
+    }
+
+
+    .list{
+        font-size: 18px;
+    }
+
+
+    .card-main-data{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-head{
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .p-1{
+        font-size: 12px;;
+    }
+
+    .upper-header img{
+        width: 5px;
+        height: 10px;
+    }
+
+    .bam-icon p{
+        font-size: 25px;
+    }
+
+    .icon{
+        width: 30px;
+        height: 20px;
+    }
+
+    .main-btn{
+        width: 120px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+    .marq-again{
+        gap: 50px;
+        padding: 20px;
+
+    } 
+    
+    .marq-img{
+        width: 100px;
+        height: 15px;
+    }
+
+
+    .data-h1-1, .data-h1-2, .data-h1-3{
+        font-size: 50px;
+    }
+
+
+
+    .best-p{
+        font-size: 15px;
+    }
+
+
+    .card-p-1{
+        font-size: 20px;
+    }
+
+
+    .card-main-img{
+        justify-content: space-between;
+    }
+
+    @keyframes slide-1{
+        0%{transform: translateX(1%);} 
+        100%{transform: translate(-47%);}
+    }
+    
+    .girl-1{
+        gap: 195px;
+    }
+
+    .beauty-img{
+        width: 90%;
+    }
+
+    .sam-pench-mate img{
+        width: 80vw;
+        height: 75vh;
+    }
+
+    .samsung-p{
+        width: 80vw;
+    }
+
+    .sam-p-1{
+        font-size: 15px;
+    }
+    
+    .sam-p-2{
+        font-size: 25px;
+    }
+    
+    .sam-p-3{
+        font-size: 10px;
+    }
+
+
+    .get-p{
+        font-size: 30px;
+    }
+
+
+    .powerful{
+        font-size: 15px;
+    }
+
+
+    .footer-ul,.footer-ul-1{
+        font-size: 17px;
+    }
+
+    .left-p img{
+        width: 5%;
+    }
+
+    .footer-last p{
+        font-size: 12px;
+    }
+
+    .copyright{
+        margin-top: -3px;
+    }
+
+    .copyright img{
+        width: 20px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #myProgress{
+        display: none;
+    }
+    
+}
+
+

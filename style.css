@@ -175,7 +175,7 @@ body{
 .main-h1, .main-h2{
     font-family: "Neue Hass 65 Medium";
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 80px;
 }
 
 .main-h1{
@@ -185,7 +185,7 @@ body{
 
 .main-p{
     font-family: "Neue Haas 55 Roman";
-    font-size: 1.5vw;
+    font-size: 25px;
     color: #747474;
     padding-right: 110px;
 }
@@ -531,6 +531,7 @@ body{
     font-size: 25px;
     font-weight: bold;
     color: #2A2A2A;
+    /* white-space: nowrap; */
 }
 
 .card-img-data{
@@ -658,7 +659,7 @@ body{
 
 .video-slide-one{
     animation-name: slide-1;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
@@ -812,6 +813,7 @@ body{
 #myProgress {
     width: 380px;
     background-color: rgb(160, 158, 158);
+    overflow: hidden;
   }
 
 
@@ -1066,6 +1068,7 @@ body{
     font-family: "Neue Haas 55 Roman";
     font-size: 18px;
     color: #747474;
+    white-space: nowrap;
 }
 
 
@@ -1099,6 +1102,9 @@ body{
 
 .main-toggle{
     display: none;
+    
+    /* margin-left: 15px;
+    margin-right: 15px; */
 }
 
 .toggle-icon{
@@ -1108,9 +1114,6 @@ body{
     justify-content: space-between;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 5px;
-    /* position: fixed; */
-    z-index: 999;
-
 }
 
 .bam-icon{
@@ -1118,6 +1121,7 @@ body{
     flex-direction: column;
     margin: 5px 20px;
 }
+
 .bam-icon p{
     font-family: "Neue Hass 65 Medium";
     font-size: 30px;
@@ -1173,3 +1177,32 @@ body{
     top: 50%;
     transform: translate(0,50%) rotate(-45deg);
 } 
+
+
+
+
+
+.block-header{
+    display: none;
+    background-color: #000000;
+}
+
+
+.block-p{
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-p li{
+    font-family: "Neue Haas 55 Roman";
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight:  500;
+    padding: 15px;
+    border-bottom: 1px solid rgb(78, 76, 76);
+}
